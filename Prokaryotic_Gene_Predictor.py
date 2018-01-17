@@ -73,10 +73,10 @@ Procedure:
 
 Usage:
 
-    ./PROdictor.py INPUT_FILE [-m number_of_mismatches] [-p -35_window] \
+    ./Prokaryotic_Gene_Predictor.py INPUT_FILE [-m number_of_mismatches] [-p -35_window] \
     [-s -10_window] [-g min_gene_length] [-k kmer_length] [-S start_codons] OUTPUT
 
-eg. ./PROdictor.py -m 2 -p 25 -s 10 -g 100 -k 6 -S 1 input.fna projectname 
+eg. ./Prokaryotic_Gene_Predictor.py -m2 -p25 -s10 -g100 -k6 -S1 input.fna projectname 
 
 '''
 
